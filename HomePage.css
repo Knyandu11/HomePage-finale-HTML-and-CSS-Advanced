@@ -1,0 +1,145 @@
+body{
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+}
+
+.container-01{
+  margin-top: -310px;
+  width: 100%;
+  max-height: 600px;
+  height: 600px;
+  rotate: -20deg;
+  background-color: black;
+  left: 30px;
+  border: 7px solid goldenrod;
+  position: absolute;
+}
+.img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSty9jkU60Eq0uHR0MM_KiJfS_zTcBQZzkaGQ&s"); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+  height: 600px;
+  width: 540px;
+  rotate: 20deg; /* This is not a valid CSS property */
+  margin-top: 240px;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.about-me{
+  background-color: rgb(0, 0, 0);
+  border: 7px solid goldenrod;
+  color: goldenrod;
+  margin-left: 464px;
+  width: 740px;
+  height: 400px;
+  margin-top: -280px;
+  rotate: 20deg;
+}
+
+h3{
+  padding-left: 15px;
+  padding-top: -90px;
+  font-size: 50px;
+}
+
+p{
+  font-size: 30px;
+  padding-left: 8px;
+}
+.container-02{
+  background-color: black;
+  width: 100%;
+  height: 350px;
+  margin-top: 900px;
+  position: absolute;
+  padding: 20px;
+  border: 7px solid goldenrod;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  align-items: center; /* Align items vertically in the center */
+  border-color: goldenrod 5px;
+} 
+
+h1{
+  padding-left: 20px;
+  padding-top: -80px;
+  color: goldenrod;
+  font-size: 50px;
+}
+
+.flex-item01{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  max-width: 340px;
+  height: 150px;
+  max-height: 340px;
+  background-color: rgb(0, 0, 0);
+  font-size: 30px;
+  color: goldenrod;
+  border-radius: 30px;
+  border: 7px solid goldenrod; /* adds a solid gold border width of 7px */
+  margin: 40px; /* Add some margin for spacing */
+  margin-top: 10px;
+  justify-content: center; /* Align items horizontally in the center */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.container-03{
+  color: gray;
+  margin-top: 1250px;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  color: black;
+}
+
+.contact-me-section{
+  padding-left: 30px;
+  font-size: 30px;
+  padding-top: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.possibility{
+  padding-top: -10px;
+  font-weight: bold;
+}
+
+.contact-details {
+  padding-top: 30px;
+  font-weight: bold;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+
+.email {
+  margin-top: -60px; /* Adjust this value as needed */
+  margin-left: 70px;
+}
+
+svg{
+  padding-top: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.Finale{
+  padding-right: 40px;
+    position: absolute;
+    top: 10; /* Adjust this value as needed */
+    right: 0; /* Adjust this value as needed */
+}
+
+
+
+
+
